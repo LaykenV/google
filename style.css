@@ -1,1 +1,96 @@
-11
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    max-width: 200px;
+}
+
+.g {
+    color: blue;
+}
+
+.o {
+    color: red;
+}
+
+.o2 {
+    color: yellow;
+}
+
+.g2 {
+    color: blue;
+}
+
+.l {
+    color: green;
+}
+
+.e {
+    color: red;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid gray 1px;
+    border-radius: 8px;
+    box-shadow: gray;
+    max-width: 400px;
+}
+
+.recommended {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    max-width: 350px;
+}
+
+.r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.rtext {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 12px;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid gray 1px;
+    border-radius: 8px;
+    box-shadow: gray;
+    padding: 8px;
+}
