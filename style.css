@@ -49,8 +49,8 @@ h1 {
     gap: 2px;
     max-width: 200px;
     font-size: 100px;
-    margin-bottom: -15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin-bottom: -5px;
+    font-family: "Product sans";
 }
 
 .g {
@@ -85,7 +85,7 @@ h1 {
     border-radius: 8px;
     box-shadow: gray;
     width: 600px;
-    height: 40px;
+    height: 34px;
     padding: 8px;
     border-radius: 30px;
 }
